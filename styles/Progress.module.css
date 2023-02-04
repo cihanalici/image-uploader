@@ -1,0 +1,32 @@
+.progressContainer {
+    width: 400.36px;
+    height: 143.57px;
+    background: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  
+  .progressContent {
+    margin-top: 36px;
+    margin-left: 32px;
+  
+    background: #ffffff;
+  }
+  
+  .progressContent p {
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+  
+    letter-spacing: -0.035em;
+  
+    /* Gray 2 */
+  
+    color: #4f4f4f;
+    background: #ffffff;
+  }
+  
+  .progressBar {
+    margin-top: 30.74px;
+  }
+  
