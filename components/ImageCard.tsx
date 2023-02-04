@@ -5,16 +5,15 @@ import axios from "axios";
 
 type ImageCardProps = {
   file: any;
-  setFile: any;
   handleFileChange: any;
+  handleDrop: any;
 };
 
-const ImageCard: FC<ImageCardProps> = ({ file, setFile, handleFileChange }) => {
-  const handleDrop = (event: any) => {
-    event.preventDefault();
-    setFile(event.dataTransfer.files[0]);
-  };
-
+const ImageCard: FC<ImageCardProps> = ({
+  file,
+  handleFileChange,
+  handleDrop,
+}) => {
   const handleDragOver = (event: any) => {
     event.preventDefault();
   };
@@ -48,12 +47,14 @@ const ImageCard: FC<ImageCardProps> = ({ file, setFile, handleFileChange }) => {
         )}
       </div>
       <p className={styles.orText}>Or</p>
-      <input
-        className={styles.imgBtn}
-        placeholder="Choose a file"
-        type="file"
-        onChange={handleFileChange}
-      />
+      <label className={styles.imgBtn}>
+        Choose a file
+        <input
+          type="file"
+          style={{ display: "none" }}
+          onChange={handleFileChange}
+        />
+      </label>
     </div>
   );
 };

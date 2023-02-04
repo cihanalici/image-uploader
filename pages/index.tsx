@@ -18,6 +18,20 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState(null);
 
+  const handleDrop = (event: any) => {
+    event.preventDefault();
+    setFile(event.dataTransfer.files[0]);
+
+    const formData = new FormData();
+
+    formData.append("file", event.dataTransfer.files[0]);
+    formData.append("upload_preset", "devto-imageU");
+
+    setLoading(true);
+
+    handleUpload(formData);
+  };
+
   const handleFileChange = (event: any) => {
     setFile(event.target.files[0]);
     // formdata oluştur ekle ve formdata'ya 'upload_preset' değerine 'devto-imageU' değerini ekle
@@ -57,8 +71,8 @@ export default function Home() {
       {!loading && !file && (
         <ImageCard
           file={file}
-          setFile={setFile}
           handleFileChange={handleFileChange}
+          handleDrop={handleDrop}
         />
       )}
 
