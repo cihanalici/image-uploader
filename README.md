@@ -36,9 +36,9 @@
 
 ## Overview
 
-![choose](https://user-images.githubusercontent.com/80601286/216768908-dd393913-bd56-4290-8045-378033ffbb2a.png)
-![loading](https://user-images.githubusercontent.com/80601286/216768909-da0125d7-466a-41c4-95a6-802297845399.png)
-![success](https://user-images.githubusercontent.com/80601286/216768915-fd135d46-7315-4fe8-9e2c-4577b383c7a5.png)
+![choose](https://user-images.githubusercontent.com/80601286/216769023-454243ce-fb53-4c01-b63e-875ddc16cd77.png)
+![loading](https://user-images.githubusercontent.com/80601286/216769026-df8553ab-bc2a-4256-b8e1-f6ffd58cab42.png)
+![success](https://user-images.githubusercontent.com/80601286/216769030-1996ea98-e9b8-4b7a-b94c-614e58e34f65.png)
 
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
