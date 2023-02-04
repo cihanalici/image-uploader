@@ -40,21 +40,10 @@
 ![loading](https://user-images.githubusercontent.com/80601286/216769026-df8553ab-bc2a-4256-b8e1-f6ffd58cab42.png)
 ![success](https://user-images.githubusercontent.com/80601286/216769030-1996ea98-e9b8-4b7a-b94c-614e58e34f65.png)
 
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
-
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+- [Next.js by Vercel - The React Framework](https://nextjs.org/)
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
