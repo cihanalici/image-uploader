@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{(https://github.com/Deadburn/image-uploader)}">
+    <a href="https://{github.com/Deadburn/image-uploader}">
       Solution
     </a>
     <span> | </span>
