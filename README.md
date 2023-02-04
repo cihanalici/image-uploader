@@ -1,6 +1,4 @@
-<!-- Please update value in the {}  -->
-
-<h1 align="center">{Next.js Image Uploader}</h1>
+<h1 align="center">Next.js Image Uploader</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -38,7 +36,10 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![choose](https://user-images.githubusercontent.com/80601286/216768908-dd393913-bd56-4290-8045-378033ffbb2a.png)
+![loading](https://user-images.githubusercontent.com/80601286/216768909-da0125d7-466a-41c4-95a6-802297845399.png)
+![success](https://user-images.githubusercontent.com/80601286/216768915-fd135d46-7315-4fe8-9e2c-4577b383c7a5.png)
+
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
